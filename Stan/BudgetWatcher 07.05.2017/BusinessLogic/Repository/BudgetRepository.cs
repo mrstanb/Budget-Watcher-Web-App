@@ -71,7 +71,8 @@ namespace BusinessLogic.Repository
             return budgets;
         }
 
-        public Budget GetById(int id)
+        // TO DO
+        public Budget GetById(int? id)
         {
             using (var context = new BudgetWatcherContext())
             {

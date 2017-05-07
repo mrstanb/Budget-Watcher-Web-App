@@ -35,7 +35,7 @@ namespace BusinessLogic.Repository
 
         }
 
-        public DefaultCategory GetById(int id)
+        public DefaultCategory GetById(int? id)
         {
             using (var context = new BudgetWatcherContext())
             {
