@@ -12,7 +12,7 @@ using BusinessLogic.Repository;
 
 namespace BudgetWatcherMVC.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class BudgetController : Controller
     {
         private BudgetWatcherContext db = new BudgetWatcherContext();
@@ -25,9 +25,9 @@ namespace BudgetWatcherMVC.Controllers
         }
 
         // GET: Budget/Details/5
-        public ActionResult Details(int? id)
+        public ActionResult Details(int id)
         {
-            if (id == null)
+            if (id == 0)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
@@ -62,9 +62,9 @@ namespace BudgetWatcherMVC.Controllers
         }
 
         // GET: Budget/Edit/5
-        public ActionResult Edit(int? id)
+        public ActionResult Edit(int id)
         {
-            if (id == null)
+            if (id == 0)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
@@ -81,7 +81,7 @@ namespace BudgetWatcherMVC.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "InitialBalance,StartDate,EndDate")] Budget budget)
+        public ActionResult Edit([Bind(Include = "Id,InitialBalance,StartDate,EndDate")] Budget budget)
         {
             if (ModelState.IsValid)
             {
@@ -92,9 +92,9 @@ namespace BudgetWatcherMVC.Controllers
         }
 
         // GET: Budget/Delete/5
-        public ActionResult Delete(int? id)
+        public ActionResult Delete(int id)
         {
-            if (id == null)
+            if (id == 0)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }

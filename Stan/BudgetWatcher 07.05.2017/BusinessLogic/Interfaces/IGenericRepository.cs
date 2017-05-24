@@ -8,8 +8,7 @@ namespace BusinessLogic.Interfaces
 {
     public interface IGenericRepository<T>
     {
-        // TO DO
-        T GetById(int? id);
+        T GetById(int id);
         ICollection<T> GetAll();
         void Add(T item);
         void Update(T item);

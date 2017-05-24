@@ -65,7 +65,7 @@ namespace BusinessLogic.Repository
             return categories;
         }
 
-        public Category GetById(int? id)
+        public Category GetById(int id)
         {
             using (var context = new BudgetWatcherContext())
             {

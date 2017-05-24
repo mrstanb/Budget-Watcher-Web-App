@@ -55,7 +55,7 @@ namespace BusinessLogic.Repository
             return users;
         }
 
-        public User GetById(int? id)
+        public User GetById(int id)
         {
             using (var context = new BudgetWatcherContext())
             {

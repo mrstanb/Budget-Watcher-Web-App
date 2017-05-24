@@ -44,7 +44,7 @@ namespace BusinessLogic.Repository
             return spendings;
         }
 
-        public Spending GetById(int? id)
+        public Spending GetById(int id)
         {
             using (var context = new BudgetWatcherContext())
             {

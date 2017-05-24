@@ -24,6 +24,7 @@ namespace BusinessLogic.Repository
             using (var context = new BudgetWatcherContext())
             {
                 context.Budgets.Add(budget);
+                context.SaveChanges();
             }
         }
 
@@ -71,8 +72,7 @@ namespace BusinessLogic.Repository
             return budgets;
         }
 
-        // TO DO
-        public Budget GetById(int? id)
+        public Budget GetById(int id)
         {
             using (var context = new BudgetWatcherContext())
             {
