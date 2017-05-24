@@ -1,0 +1,12 @@
+D:\GitRepo\Budget-Watcher-Web-App\BudgetWatcher 23.04.2017\BusinessLogic\bin\Debug\BusinessLogic.dll.config
+D:\GitRepo\Budget-Watcher-Web-App\BudgetWatcher 23.04.2017\BusinessLogic\bin\Debug\BusinessLogic.dll
+D:\GitRepo\Budget-Watcher-Web-App\BudgetWatcher 23.04.2017\BusinessLogic\bin\Debug\BusinessLogic.pdb
+D:\GitRepo\Budget-Watcher-Web-App\BudgetWatcher 23.04.2017\BusinessLogic\bin\Debug\EntityFramework.dll
+D:\GitRepo\Budget-Watcher-Web-App\BudgetWatcher 23.04.2017\BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitRepo\Budget-Watcher-Web-App\BudgetWatcher 23.04.2017\BusinessLogic\bin\Debug\EntityFramework.xml
+D:\GitRepo\Budget-Watcher-Web-App\BudgetWatcher 23.04.2017\BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitRepo\Budget-Watcher-Web-App\BudgetWatcher 23.04.2017\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+D:\GitRepo\Budget-Watcher-Web-App\BudgetWatcher 23.04.2017\BusinessLogic\obj\Debug\BusinessLogic.dll
+D:\GitRepo\Budget-Watcher-Web-App\BudgetWatcher 23.04.2017\BusinessLogic\obj\Debug\BusinessLogic.pdb
+D:\GitRepo\Budget-Watcher-Web-App\BudgetWatcher 23.04.2017\BusinessLogic\obj\Debug\BusinessLogic.Migrations.Initial.resources
+D:\GitRepo\Budget-Watcher-Web-App\BudgetWatcher 23.04.2017\BusinessLogic\obj\Debug\BusinessLogic.csproj.GenerateResource.Cache
